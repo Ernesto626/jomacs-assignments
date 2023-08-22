@@ -43,7 +43,7 @@ function checkCVC(){
       echo "***Your card has been confirmed***"
       echo "Hello Mr Kofi Ezedike, please insert your card and set up your PIN"
       sleep 3  
-      setPIN
+      setPIN #calling the setPIN function here
       break
     else
       echo "Invalid CVC. You have $((attempts - 1)) attempts remaining."
